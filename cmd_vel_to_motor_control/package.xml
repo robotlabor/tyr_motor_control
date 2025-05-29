@@ -1,0 +1,19 @@
+<package format="3">
+  <name>cmd_vel_to_motor_control</name>
+  <version>0.0.0</version>
+  <description>Convert cmd_vel to ODrive control messages for a differential-drive mobile robot platform</description>
+
+  <maintainer email="krecht.rudolf@ga.sze.hu">Rudolf Krecht</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>odrive_can</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
